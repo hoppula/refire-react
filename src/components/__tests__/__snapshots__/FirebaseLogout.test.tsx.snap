@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirebaseLogout renders given children and calls dispatch on click 1`] = `
+<button
+  onClick={[Function]}
+>
+  Logout
+</button>
+`;

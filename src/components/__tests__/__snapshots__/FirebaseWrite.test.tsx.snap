@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirebaseWrite clears write error with clearErrors 1`] = `
+<button
+  onClick={[Function]}
+>
+  Error
+</button>
+`;
+
+exports[`FirebaseWrite invokes write action with submit 1`] = `
+<button
+  onClick={[Function]}
+/>
+`;

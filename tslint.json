@@ -1,0 +1,22 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    "interface-name": [false],
+    "member-access": [false],
+    "semicolon": [true, "never"],
+    "trailing-comma": [false],
+    "object-literal-key-quotes": [false],
+    "one-variable-per-declaration": [false],
+    "jsx-curly-spacing": [true, "always"],
+    "no-empty": false,
+    "jsx-wrap-multiline": false,
+    "no-duplicate-imports": false,
+    "only-arrow-functions": [
+      false
+    ]
+  },
+  "jsRules": {
+  },
+  "rulesDirectory": [
+  ]
+}

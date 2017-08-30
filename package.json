@@ -1,0 +1,61 @@
+{
+  "name": "refire-react",
+  "version": "1.0.0",
+  "description": "React components and helpers for Refire",
+  "keywords": [
+    "react",
+    "redux",
+    "firebase",
+    "refire"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoppula/refire-react"
+  },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest",
+    "clean": "rimraf lib",
+    "lint": "tslint src/components/*.tsx",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "author": "Lari Hoppula",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.0",
+    "react-test-renderer": "^15.5.4",
+    "redux-thunk": "^2.2.0",
+    "rimraf": "^2.6.1",
+    "ts-jest": "^20.0.2",
+    "tslint": "^5.2.0",
+    "tslint-react": "^3.0.0",
+    "typescript": "^2.4.0"
+  },
+  "dependencies": {
+    "@types/jest": "^20.0.7",
+    "@types/prop-types": "^15.5.1",
+    "@types/react": "^15.6.1",
+    "@types/react-dom": "^15.5.0",
+    "@types/react-redux": "^5.0.4",
+    "@types/react-test-renderer": "^15.5.0",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.6",
+    "refire": "^3.0.0"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

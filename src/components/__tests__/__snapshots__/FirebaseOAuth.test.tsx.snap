@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirebaseOAuth renders given children and calls onClick on click 1`] = `
+<button
+  onClick={[Function]}
+>
+  Login with Facebook
+</button>
+`;

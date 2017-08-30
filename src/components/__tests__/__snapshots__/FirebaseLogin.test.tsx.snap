@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirebaseLogin submit calls dispatch prop 1`] = `
+<button
+  onClick={[Function]}
+>
+  Submit
+</button>
+`;
+
+exports[`FirebaseLogin updateEmail updates email 1`] = `
+<div
+  onClick={[Function]}
+/>
+`;
+
+exports[`FirebaseLogin updateEmail updates email 2`] = `
+<div
+  onClick={[Function]}
+>
+  test@test.com
+</div>
+`;
+
+exports[`FirebaseLogin updatePassword updates password 1`] = `
+<div
+  onClick={[Function]}
+/>
+`;
+
+exports[`FirebaseLogin updatePassword updates password 2`] = `
+<div
+  onClick={[Function]}
+>
+  password
+</div>
+`;

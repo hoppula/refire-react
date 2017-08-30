@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirebaseRegistration submit calls dispatch prop 1`] = `
+<button
+  onClick={[Function]}
+>
+  Submit
+</button>
+`;
+
+exports[`FirebaseRegistration update updates chosen field 1`] = `
+<div
+  onClick={[Function]}
+/>
+`;
+
+exports[`FirebaseRegistration update updates chosen field 2`] = `
+<div
+  onClick={[Function]}
+>
+  test@test.com
+</div>
+`;
