@@ -1,6 +1,6 @@
 {
   "name": "refire-react",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React components and helpers for Refire",
   "keywords": ["react", "redux", "firebase", "refire"],
   "repository": {
