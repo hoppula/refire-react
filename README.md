@@ -4,6 +4,14 @@
 
 ## Components
 
+### Refire
+
+[RefireProvider](docs/RefireProvider.md)
+
+[Bind](docs/Bind.md)
+
+### Firebase
+
 These components will help you with basic Firebase tasks.
 
 [FirebaseLogin](docs/FirebaseLogin.md)
