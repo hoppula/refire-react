@@ -1,13 +1,8 @@
 {
   "name": "refire-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React components and helpers for Refire",
-  "keywords": [
-    "react",
-    "redux",
-    "firebase",
-    "refire"
-  ],
+  "keywords": ["react", "redux", "firebase", "refire"],
   "repository": {
     "type": "git",
     "url": "https://github.com/hoppula/refire-react"
@@ -52,10 +47,6 @@
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ]
+    "moduleFileExtensions": ["ts", "tsx", "js"]
   }
 }
